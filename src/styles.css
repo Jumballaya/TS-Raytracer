@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+body,
+html {
+    margin: 0;
+    max-height: 100vh;
+    height: 100vh;
+}
+
+body {
+    background-color: #050505;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+canvas {
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    padding-right: 64px;
+    border-bottom: 5px solid #202020;
+}
+
+.editor-container {
+    height: calc(100vh - 150px);
+}
+
+
+.editor-container {
+    width: 66%;
+}
+
+.canvas-container {
+    width: 50%;
+    padding-top: 24px;
+}
+
+.canvas-holder {
+    margin: 0 auto;
+    display: block;
+    background-color: black;
+    width: 512px;
+    height: 384px;
+}
+
+#submit {
+    border: 0;
+    border-radius: 0.25rem;
+    background-color: #DF2935;
+    color: #f0f0f0;
+    font-weight: bold;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    margin: 0.25rem;
+    cursor: pointer;
+    padding: 8px 24px;
+    transition: all 300ms ease-in-out;
+}
+
+#submit:hover {
+    background-color: #a7222b;
+    color: #e0e0e0;
+}
