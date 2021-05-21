@@ -1,7 +1,8 @@
 # TS Raytracer
 
 ## Demo URL
-
+Check it out here --
+https://jumballaya.github.io/TS-Raytracer/
 
 ### Example Script
 
